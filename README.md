@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🐝 TaskHive
 
-## Getting Started
+TaskHive is a modern Kanban-style task management app inspired by Trello — built with Next.js, Supabase, and Clerk.
+It allows teams to create boards, manage tasks, collaborate in real time, and scale with authentication & billing.
 
-First, run the development server:
+⚡️ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📋 Boards & Columns – Create multiple boards with fully customizable columns.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+➕ Dynamic Tasks – Add, edit, and delete tasks with title, description, assignee, priority, and due date.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔄 Drag & Drop – Smoothly reorder tasks or move them across columns using drag-and-drop.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📡 Real-Time Updates – Instant sync across clients powered by Supabase subscriptions.
 
-## Learn More
+🔍 Filtering – Search and filter tasks by priority or due date.
 
-To learn more about Next.js, take a look at the following resources:
+🔐 Auth & Billing – Secure sign-up/login with Clerk and upgrade plan to unlock unlimited boards.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚀 One-Click Deployment – Deploy instantly on Vercel with environment variables for Supabase & Clerk.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+⚙️ Tech Stack
 
-## Deploy on Vercel
+Next.js – React framework with server components & file-based routing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Supabase – Hosted Postgres, real-time subscriptions & storage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Clerk – Authentication & subscription billing
+
+@dnd-kit – Drag-and-drop primitives for React
+
+TailwindCSS – Utility-first styling
+
+TypeScript – Static typing for safer code
